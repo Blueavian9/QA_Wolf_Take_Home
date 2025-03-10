@@ -51,6 +51,14 @@ async function sortHackerNewsArticles() {
 })();
 
 
+try {
+  // Your script logic here
+} catch (error) {
+  console.error("An error occurred:", error.message);
+  process.exit(1);
+}
+
+
 // // EDIT THIS FILE TO COMPLETE ASSIGNMENT QUESTION 1
 // const { chromium } = require("playwright");
 
